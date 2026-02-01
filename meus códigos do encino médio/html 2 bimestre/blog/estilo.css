@@ -1,0 +1,46 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: #333;
+background-color: #f9f9f9;
+}
+header{
+    background-color: #0d47a1;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+nav{
+    background-color: #1565c0;
+    justify-content: center; /*centraliza os links do menu de navegação*/
+    padding: 10px;
+    display: flex; /*organiza os links lado a lado*/
+}
+nav a{
+    color: white;
+    font-weight: bold; /*Texto do link em negrito*/
+    margin: 15px;
+    text-decoration: none; /*Tira o sublinhado do link*/
+}
+footer{
+    background-color: #0d47a1;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px; /*espaço acima do rodapé*/
+}
+.principal{
+    padding: 30px; /*espaço interno*/
+    max-width: 1000px; /*largura máxima*/
+    margin: auto; /*centraliza horizontalmente*/
+    
+}
+.noticia{
+    background-color: white;
+padding: 20px;
+box-shadow: 0 2px rgb(0, 0, 1); /*sombra sutil*/
+
+}
+.noticia h2{
+color: #0d47a1;
+margin-bottom: 10px; /*Espaço abaixo do título*/
+}

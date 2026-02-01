@@ -1,0 +1,9 @@
+body{
+    background-image: url('../../Imagens/Camera Roll/WIN_20250107_10_49_43_Pro.jpg');
+    background-repeat: no-repeat;
+    font:italic 1.2rem "fira sans", serif;
+    border: 4mm ridge rgba(15, 255, 223, 0.6);
+    aspect-ratio: 16 / 9;
+   color: aqua;
+   columns: 8cm auto;
+}

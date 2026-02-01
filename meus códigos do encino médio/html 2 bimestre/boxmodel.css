@@ -1,0 +1,12 @@
+/* estilo para o elemento que mostra o box model*/
+.caixa{
+    width: 500px; /*largura do conteúdo da caixa*/
+    height: 100px; /*altura do conteúdo da caixa*/
+background-color: rgb(183, 233, 3);
+padding: 50px; /*criar um esparçamento interno (espaço entre o conteúdo da caixa e a borda)*/
+border: 5px solid green; /*defina a esperssura e a cor da borda*/
+margin: 15px; /*cria um espaço externo (espaço entre a borda da caixa e os outros elementos*/
+box-sizing: border-box;
+}
+
+

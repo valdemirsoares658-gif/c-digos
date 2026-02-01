@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exemplo java script </title>
+</head>
+<body>
+    <script>
+        let ano = Number(prompt("Digite um ano:"));
+        let bissexto = (ano % 400 === 0) || (ano % 4 === 0) && (ano % 100 !== 0);
+        alert(bissexto ? "O ano é BISSEXTO" : "O ano não é BISSEXTO");
+    </script>
+</body>
+</html>
